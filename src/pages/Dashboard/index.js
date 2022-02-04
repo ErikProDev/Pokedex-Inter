@@ -21,7 +21,7 @@ function Dashboard() {
   return (
     <div>
       <Text as="h1">Dashboard</Text>
-      <Text>Search for Pokémon by name or using the National Pokédex number</Text>
+      <Text>Procure por Pokemons pelo nome ou usando o National Pokédex number</Text>
 
       {
           pokemon.length > 0 && pokemon.map((item) => (
